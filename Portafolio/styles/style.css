@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color:#000000;
+    color:#f1faee;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+
+  .header{ /*Estilizacion del header.*/
+    padding: 2% 0% 0% 15%;
+  }
+  .header__menu{ /*Estilizacion menu del header.*/
+    display: flex;
+    gap: 80px;
+  }
+  .header__menu__link{ /*Estilizacion de los elementos del menu del header.*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+  }
+  .presentacion{ /*Estilizacion de titulo y parrafo de presentacion.*/
+    display: flex;
+    align-items: center;
+    padding: 6% 15%;
+    justify-content: space-between;
+  }
+  .presentacion__contenido{ /*Estilizacion de titulo, parrafo y enlaces a redes sociales.*/
+    display: flex;
+    width: 615px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .presentacion__contenido__titulo{ /*Estilizacion del titulo.*/
+    font-size: 36px;
+    font-family: "Krona One", sans serif;
+  }
+  .titulo-destaque{ /*Estilizacion a una seccion del titulo.*/
+    color: #22D4FD;
+  }
+  .presentacion__contenido__texto{ /*Estilizacion del parrafo de la presentacion.*/
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+  }
+  .presentacion__enlaces{ /*Estilizacion de los enlaces a las redes sociales.*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .presentacion__enlaces__subtitulo{ /*Estilizacion del subtitulo en la seccion de enlaces a redes sociales.*/
+    font-family: 'Krona One', sans serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .presentacion__boton{ /*Estilizacion de los botones.*/
+    width: 378px;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    color: #f6f6f6;
+    border: 2px solid #22D4FD;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .presentacion__boton:hover{ /*Estilizacion del fondo de los botones al posicionar el cursor encima.*/
+    background-color: #272727;
+    border-color: purple;
+  }
+  .presentacion__boton:active{ /*Estilizacion del fondo de los botones al dar click.*/
+    background-color: antiquewhite;
+  }
+  .footer{ /*Estilizacion del footer.*/
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
