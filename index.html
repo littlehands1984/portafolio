@@ -1,27 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
+    
     <body>
-        <header></header>
-        <main>
-            <h1>Eleve tu negocio digital a otro nivel <strong>un Front-end de calidad!</strong></h1>
-            <p><strong>¡Hola! Soy Eduardo Bravo</strong>, estudiante del curso JavaScript con ALURA buscando especializarme en Back-End.
-                Actualmente trabajo como comprador para una empresa de tecnología especializada en distribución y desarrollo de soluciones. 
-                ¿Hablamos?</p>
-            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-            <a href="https://github.com/" target="_blank">GitHub</a>
-            <img src="David.jpg" alt="Foto persona de perfil" width="500" height="600">
+
+        <header class="header"><!--Definicion del header-->
+            <nav class="header__menu">
+                <a class="header__menu__link" href="index.html">Home</a>
+                <a class="header__menu__link" href="about.html">Sobre mi</a>
+            </nav>
+        </header>
+
+        <main class="presentacion">
+
+            <section class="presentacion__contenido">
+
+                <h1 class="presentacion__contenido__titulo"><!--Seccion de titulo-->
+                    Eleva tu negocio digital a otro nivel<strong class="titulo-destaque"> un Front-end de calidad!</strong>
+                </h1>
+                <p class="presentacion__contenido__texto"><!--Seccion del parrafo de presentacion-->
+                    ¡Hola! Soy Eduardo Bravo, estudiante del curso JavaScript con ALURA buscando especializarme en Back-End.
+                    Actualmente trabajo como comprador para una empresa de tecnología especializada en distribución y desarrollo de soluciones. 
+                    ¿Hablamos?
+                </p>
+
+                <div class="presentacion__enlaces"><!--Seccion de enlaces a redes sociales-->
+                    <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes:</h2>
+                    <a class="presentacion__boton" href="https://www.instagram.com/curly.1984" target="_blank"> <img src="./assets/insta.png" width="32px" height="32px">Instagram</a>
+                    <a class="presentacion__boton" href="https://github.com/littlehands1984" target="_blank"><img src="./assets/github.png" width="32px" height="32px">GitHub</a>
+                    <a class="presentacion__boton" href="https://linkedin.com/in/david-eduardo-bravo-delgado-7982bb152" target="_blank"><img src="./assets/linkedin.png" width="32px" height="32px">Linkedin</a>
+                    <a class="presentacion__boton" href="https://api.whatsapp.com/send?phone=523338205164" target="_blank"><img src="./assets/whatsapp.png" width="32px" height="32px">Contact me</a>
+                </div>
+
+            </section><!--Insersion de imagen de presentacion-->
+            <img class="presentacion__imagen" src="./assets/David.jpg" alt="Foto persona de perfil" width="300" height="600">
+
         </main>
-        <footer>
-            <ol>
-                <li><a href="mailto:eduardobravo1290@gmail.com">eduardobravo1290@gmail.com</a></li>
-                <li><a href="tel:+523338205164">+52 333 820 51 64</a></li>
-            </ol>
+
+        <footer class="footer"><!--Definicion del footer-->
+            <p>Derechos reservados @Curly1984</p>
         </footer>
     </body>
+
 </html>
